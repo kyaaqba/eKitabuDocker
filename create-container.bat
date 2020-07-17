@@ -1,2 +1,2 @@
 docker pull mattrayner/lamp
-docker-compose -f docker-compose.yml -p ci build;
+docker-compose up -d
