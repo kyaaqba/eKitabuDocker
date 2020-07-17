@@ -1,0 +1,376 @@
+@charset "UTF-8";
+@namespace "http://www.w3.org/1999/xhtml";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url(../Fonts/NotoSans.otf)  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'Noto Sans Ethiopic';
+  src: url(../Fonts/NotoSansEthiopic-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKufiArabic';
+  src: url('../Fonts/NotoKufiArabic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url(../Fonts/OpenDyslexic3-Regular.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+.arabic {
+}
+
+body {
+    /* use sans-serif as fallback to make the difference obvious */    
+    line-height: 1.5em;
+    font-family: 'opendyslexic';
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
+}
+
+h1.header-title{
+margin-top: 1em 0em 0em 0em;
+line-height: 1.0em;
+font-family: opendyslexic;
+font-weight: bold;
+color:#FE0088;
+text-align: center;
+}
+
+
+p, div, span {
+}
+
+#container {
+    text-align:center;
+    page-break-inside:avoid;
+}
+#container img {
+  display:inline-block;
+    margin:0 auto;
+}
+
+#centered  {
+    width:100%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+#centered img {
+  display:inline-block;
+    max-height: 100px;
+    margin:0 auto;
+}
+
+.center-img  {
+    width:100%;
+    text-align:center;
+   
+}
+.center-img img {
+      margin:0 auto;
+}
+
+.c000000 {
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+.c000000_darker {
+    background-color: #616161;
+    color: #FFFFFF;
+}
+
+.cD2D3D5,
+.cF3F3F4 {
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+.cD2D3D5_darker,
+.cF3F3F4_darker {
+    background-color: #616161;
+    color: #FFFFFF;
+}
+
+.cF3BE17 {
+    background-color: #FFC107;
+    color: #000000;
+}
+
+.cF3BE17_darker {
+    background-color: #FFA00B;
+    color: #000000;
+}
+
+.cD8852A {
+    background-color: #FF9800;
+    color: #000000;
+}
+
+.cD8852A_darker {
+    background-color: #F57C00;
+    color: #000000;
+}
+
+.c90B73E {
+    background-color: #4CAF50;
+    color: #000000;
+}
+
+.c90B73E_darker {
+    background-color: #388E3C;
+    color: #000000;
+}
+
+.c03A9F4 {
+    background-color: #03A9F4;
+    color: #000000;
+}
+
+.c03A9F4_darker {
+    background-color: #0288D1;
+    color: #000000;
+}
+
+.c89C9CC {
+    background-color: #03A9F4;
+    color: #000000;
+}
+
+.c89C9CC_darker {
+    background-color: #0288D1;
+    color: #000000;
+}
+
+.cB6608E {
+    background-color: #9C27B0;
+    color: #ffffff;
+}
+
+.cB6608E_darker {
+    background-color: #7B1FA2;
+    color: #FFFFFF;
+}
+
+.levelFont1 {
+        font-size: 3.5vh !important;
+        line-height: 4vh !important;
+    }
+    .levelFont2 {
+        font-size: 3vh !important;
+        line-height: 3.5vh !important;
+    }
+    .levelFont3 {
+        font-size: 2.5vh !important;
+        line-height: 3vh !important;
+    }
+    .levelFont4 {
+        font-size: 2.0vh !important;
+        line-height: 2.5vh !important;
+    }
+    .levelFont50 {
+        font-size: 2.0vh !important;
+        line-height: 2.5vh !important;
+    }
+    .levelFont6 {
+        font-size: 1.5vh !important;
+        line-height: 2vh !important;
+    }
+
+
+backcover_wrapper {
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+}
+
+.backcover_disclaimer {
+    width: calc(100% - 12vh);
+    left: 0;
+    padding: 6vh;
+    font-size:9pt;
+    line-height: 11pt;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.backcover_title {
+    font-weight: 400;
+    width: calc(100% - 16vh);
+    background-color: transparent;
+    text-align: center;
+    margin: 2vh 8vh;
+    font-size:9pt;
+    line-height: 11pt;
+}
+
+.backcover_label {
+    font-weight: 200;
+    font-size:9pt;
+    line-height: 11pt;
+}
+
+.bookcover_author {
+    font-weight: 300;
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 4vh;
+    font-size:9pt;
+    line-height: 11pt;
+}
+
+.backcover_bold {
+    font-weight: 400;
+}
+
+.backcover_copyright {
+    font-weight: 300;
+    margin: 1.6vh 0vh;
+    width: 100%;
+    text-align: center;
+    font-size:9pt;
+    line-height: 11px;
+}
+
+a.hlink{
+text-decoration: underline;
+color: #031053;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#centered1  {
+    width:100%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+#centered1 img {
+    margin:0 auto;
+}
+.sign-video{
+	width:100%;
+    text-align:center;
+}
+
+p.toc{font-size:1.3em;margin-top:3em;margin-bottom:3em;text-align:left;}
+p.pagebreak{page-break-after: always;}
+h1.chapter-title{margin-top: 4em;margin-bottom: 1em;margin-left: 0em;margin-right: 0em;text-align: center;line-height: 1.2em;font-weight: bold;font-size: 1.5em;color: #008796;}
+
+/*Questions Section*/
+div.box{
+margin-top:1em;
+margin-left:1em;
+margin-right:0em;
+margin-bottom:0.1em;
+/*background:#FEE6EF;*/
+background:white;
+border-radius:25px;
+border: 1.2px dotted #008796;
+padding:5px;
+font-family: opendyslexic;
+line-height: 45px;
+}
+
+h2.questions-title{
+margin-top: 5em 0em 5em 0em;
+text-align: left;
+font-family: opendyslexic;
+font-weight: bold;
+color:#FE0088;
+}
+
+ol.arabic{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0.4em;
+margin-right: 0em;
+list-style-type: number;
+}
+
+ol.arabic li{
+text-align:justify;
+color:#3698A1;
+font-size: 15px
+}
+
+span.normal{
+	font-size: 15px
+}
+
+/* Glossary Pages and word references*/
+a.reference{
+	font-style: underline;
+	color: black;
+}
+
+/*
+a.g_reference{
+	color: #3698A1;
+	font-weight: bold;
+	text-decoration: none; 
+}
+*/
+
+table.gloss-tbl{
+	font-family: opendyslexic;
+	position: absolute;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    width: 700px;
+    left: 10px;
+    right: 10px;
+    border: solid thick #3698A1;
+    border-radius: 25px;
+}
+
+tr.row-def{
+	height: 200px;
+	padding: 20px;
+	border-bottom: solid thin #3698A1;
+}
+td.col-name{
+	width: 30%;
+	padding: 10px;
+}
+td.col-video{
+	width: 40%;
+	padding: 10px;
+	left: 0px;
+}
+td.col-back{
+	width: 20%;
+	padding: 100px 10px 10px 50px;
+}
+p.word-def{
+	font-family: inherit;
+	font-size: 20px;
+	text-align: left;
+	color:#3698A1;
+}
+.glossary-video{
+	width:300px;
+	height: 170px	
+}
+img.back-icon{
+	background-image: cover;
+	width: 100%;
+	background-color: white;
+}
+a.no-reference{
+	display: none;	
+}

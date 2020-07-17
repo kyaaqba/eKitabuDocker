@@ -1,0 +1,1 @@
+<?php header('Location: /dist/cloud-reader/?epubs=epub_content%2Flibrary.json'); ?>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <!-- Title of the book -->
+    <dc:title>Letter to Mum</dc:title>
+    <!-- Creator/Author -->
+    <dc:creator id="creator01">Ursula Nafula</dc:creator>
+        <meta property="role" refines="#creator01">aut</meta>
+        <meta property="file-as" refines="#creator01">Ursula Nafula</meta>
+        <meta property="dcterms:modified">2019-01-17T12:39:00Z</meta>
+		<dc:contributor>Catherine Groenewald</dc:contributor>
+    <!-- Date -->
+    <dc:date>2014</dc:date>
+    <!-- Publisher of the book-->
+    <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
+    <!-- Language of the book-->
+    <dc:language>en</dc:language>
+    <!-- Identifier -->
+    <dc:identifier id="uuid_id">4ac19f82-f11b-43c3-b854-2ce7e3c66351</dc:identifier>
+        <meta property="identifier-type" refines="#uuid_id">uuid</meta>
+    <!-- Rights -->
+    <dc:rights>You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <!-- Source -->
+	<dc:source>Title: Letter to Mum, Publisher: Africa Storybook, Author: Ursula Nafula, Contributor: Catherine Groenewald, Year: 2014, Africa</dc:source>
+  <dc:description>The man in this story is so tall that everything around him is too short or too small. He solves this problem by creating things to match his size.</dc:description>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <!-- Meta for the cover -->
+    <meta name="cover" content="cover-image"/>
+
+    <!-- ACCESSIBLITY METADATA PROPERTIES -->
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All interior images has sufficient alt text and shows how longer descriptions can be added.</meta>
+  </metadata>
+ <manifest>
+	<item id="font00" href="fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+   <item href="epub.css" id="default_css" media-type="text/css"/>
+   <item href="fonts/NotoSans.otf" id="NotoSans-Regular" media-type="application/vnd.ms-opentype"/>
+   <item href="fonts/NotoSansEthiopic-Regular.otf" id="Noto-Sans-Ethiopic" media-type="application/vnd.ms-opentype"/>
+   <item href="fonts/NotoKufiArabic.otf" id="NotoKufiArabic" media-type="application/vnd.ms-opentype"/>
+   <item href="images/logowhite.png" id="item_image_0"  media-type="image/png"/>
+   <item href="images/asblogo.png" id="item_image_1"  media-type="image/png"/>
+   <item href="images/1504.png" id="item_image_2"  media-type="image/png"/>
+   <item href="images/1505.png" id="item_image_3"  media-type="image/png"/>
+   <item href="images/1506.png" id="item_image_4"  media-type="image/png"/>
+   <item href="images/1507.png" id="item_image_5"  media-type="image/png"/>
+   <item href="images/1508.png" id="item_image_6"  media-type="image/png"/>
+   <item href="images/2133.png" id="item_image_7"  media-type="image/png"/>
+   <item href="images/1509.png" id="item_image_8"  media-type="image/png"/>
+   <item href="images/1510.png" id="item_image_9"  media-type="image/png"/>
+   <item href="images/1511.png" id="item_image_10"  media-type="image/png"/>
+   <item href="images/1512.png" id="item_image_11"  media-type="image/png"/>
+   <item href="images/1513.png" id="item_image_12"  media-type="image/png"/>
+   <item href="images/1514.png" id="item_image_13"  media-type="image/png"/>
+   <item href="images/1503.png" id="item_image_14"  media-type="image/png"/>
+   <item href="images/1515.png" id="item_image_15"  media-type="image/png"/>
+   <item href="images/1516.png" id="item_image_16"  media-type="image/png"/>
+   <item href="images/1517.png" id="item_image_17"  media-type="image/png"/>
+   <item href="images/1518.png" id="item_image_18"  media-type="image/png"/>
+    <item href="0.xhtml" id="chapter_0" media-type="application/xhtml+xml"/>
+    <item href="1.xhtml" id="chapter_1" media-type="application/xhtml+xml"/>
+    <item href="2.xhtml" id="chapter_2" media-type="application/xhtml+xml"/>
+    <item href="3.xhtml" id="chapter_3" media-type="application/xhtml+xml"/>
+    <item href="4.xhtml" id="chapter_4" media-type="application/xhtml+xml"/>
+    <item href="5.xhtml" id="chapter_5" media-type="application/xhtml+xml"/>
+    <item href="6.xhtml" id="chapter_6" media-type="application/xhtml+xml"/>
+    <item href="7.xhtml" id="chapter_7" media-type="application/xhtml+xml"/>
+    <item href="8.xhtml" id="chapter_8" media-type="application/xhtml+xml"/>
+    <item href="9.xhtml" id="chapter_9" media-type="application/xhtml+xml"/>
+    <item href="10.xhtml" id="chapter_10" media-type="application/xhtml+xml"/>
+    <item href="11.xhtml" id="chapter_11" media-type="application/xhtml+xml"/>
+    <item href="12.xhtml" id="chapter_12" media-type="application/xhtml+xml"/>
+    <item href="13.xhtml" id="chapter_13" media-type="application/xhtml+xml"/>
+    <item href="14.xhtml" id="chapter_14" media-type="application/xhtml+xml"/>
+    <item href="15.xhtml" id="chapter_15" media-type="application/xhtml+xml"/>
+    <item href="16.xhtml" id="chapter_16" media-type="application/xhtml+xml"/>
+    <item href="17.xhtml" id="chapter_17" media-type="application/xhtml+xml"/>
+    <item href="18.xhtml" id="chapter_18" media-type="application/xhtml+xml"/>
+    <item href="19.xhtml" id="chapter_19" media-type="application/xhtml+xml"/>
+ <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+ <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+ <item id="cover-image" href="images/cover.png"  media-type="image/png" properties="cover-image"/>
+ </manifest>
+ <spine toc="ncx">
+    <itemref idref="chapter_0"/>
+    <itemref idref="nav"/>
+    <itemref idref="chapter_1"/>
+    <itemref idref="chapter_2"/>
+    <itemref idref="chapter_3"/>
+    <itemref idref="chapter_4"/>
+    <itemref idref="chapter_5"/>
+    <itemref idref="chapter_6"/>
+    <itemref idref="chapter_7"/>
+    <itemref idref="chapter_8"/>
+    <itemref idref="chapter_9"/>
+    <itemref idref="chapter_10"/>
+    <itemref idref="chapter_11"/>
+    <itemref idref="chapter_12"/>
+    <itemref idref="chapter_13"/>
+    <itemref idref="chapter_14"/>
+    <itemref idref="chapter_15"/>
+    <itemref idref="chapter_16"/>
+    <itemref idref="chapter_17"/>
+    <itemref idref="chapter_18"/>
+    <itemref idref="chapter_19"/>
+ </spine>
+</package>

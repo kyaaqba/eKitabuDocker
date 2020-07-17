@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Teeth</dc:title>
+    <dc:creator id="creator01">Clare Verbeek, Thembani Dladla, Zanele Buthelezi</dc:creator>
+    <meta property="role" refines="#creator01">aut</meta>
+    <meta property="file-as" refines="#creator01">Clare Verbeek, Thembani Dladla, Zanele Buthelezi</meta>
+    <meta property="dcterms:modified">2019-08-08T13:36:57Z</meta>
+    <dc:contributor>Kathy Arbuckle</dc:contributor>
+    <dc:date>2014</dc:date>
+    <dc:publisher xml:lang="en-us" id="en_publisher">African Storybook</dc:publisher>
+    <dc:language>en</dc:language>
+    <dc:identifier id="uuid_id">70690040-8f30-472f-939f-d647771507e9</dc:identifier>
+    <meta property="identifier-type" refines="#uuid_id">uuid</meta>
+    <dc:rights>You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <dc:source>Title: Teeth, Publisher: Africa Storybook, Author: Clare Verbeek, Thembani Dladla, Zanele Buthelezi, Contributor: Kathy Arbuckle, Year: 2014, Africa</dc:source>
+    <dc:description>Different animals have different types of teeth (and some have no teeth). What happens to our teeth as we grow?</dc:description>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <meta name="cover" content="cover-image" />
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All interior images has sufficient alt text and shows how longer descriptions can be added.</meta>
+    <meta content="0.9.13" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item id="font00" href="Fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="default_css" href="Styles/epub.css" media-type="text/css"/>
+    <item id="NotoSans-Regular" href="Fonts/NotoSans.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Noto-Sans-Ethiopic" href="Fonts/NotoSansEthiopic-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="NotoKufiArabic" href="Fonts/NotoKufiArabic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="item_image_0" href="Images/logowhite.png" media-type="image/png"/>
+    <item id="item_image_1" href="Images/asblogo.png" media-type="image/png"/>
+    <item id="item_image_2" href="Images/1701.png" media-type="image/png"/>
+    <item id="item_image_3" href="Images/1702.png" media-type="image/png"/>
+    <item id="item_image_4" href="Images/1703.png" media-type="image/png"/>
+    <item id="item_image_5" href="Images/1704.png" media-type="image/png"/>
+    <item id="item_image_6" href="Images/1705.png" media-type="image/png"/>
+    <item id="item_image_7" href="Images/1706.png" media-type="image/png"/>
+    <item id="item_image_8" href="Images/1707.png" media-type="image/png"/>
+    <item id="item_image_9" href="Images/1708.png" media-type="image/png"/>
+    <item id="item_image_10" href="Images/seed.png" media-type="image/png"/>
+    <item id="chapter_0" href="Text/0.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_1" href="Text/1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_2" href="Text/2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_3" href="Text/3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_4" href="Text/4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_5" href="Text/5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_6" href="Text/6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_7" href="Text/7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_8" href="Text/8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_9" href="Text/9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="nav" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover-image" href="Images/cover.png" media-type="image/png" properties="cover-image"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="chapter_0"/>
+    <itemref idref="nav"/>
+    <itemref idref="chapter_1"/>
+    <itemref idref="chapter_2"/>
+    <itemref idref="chapter_3"/>
+    <itemref idref="chapter_4"/>
+    <itemref idref="chapter_5"/>
+    <itemref idref="chapter_6"/>
+    <itemref idref="chapter_7"/>
+    <itemref idref="chapter_8"/>
+    <itemref idref="chapter_9"/>
+  </spine>
+</package>

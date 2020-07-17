@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="uuid_id" xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Rats!</dc:title>
+    <dc:creator id="creator01">Lourenço Magaia Sabão</dc:creator>
+    <meta refines="#creator01" property="role">aut</meta>
+    <meta refines="#creator01" property="file-as">Lourenço Magaia Sabão</meta>
+    <meta property="dcterms:modified">2019-08-28T18:00:56Z</meta>
+    <dc:description>Little Zebra Books, Stephanie Simpson</dc:description>
+    <dc:date>2015</dc:date>
+    <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
+    <dc:language>en</dc:language>
+    <dc:identifier id="uuid_id">N/A</dc:identifier>
+    <meta refines="#uuid_id" property="identifier-type">N/A</meta>
+    <dc:rights id="en_rights" xml:lang="en">You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <dc:source>Title: Rats!, Publisher: African Storybook, Author: Lourenço Magaia Sabão, Contributor: Little Zebra Books, Stephanie Simpson, Year: 2015, Africa</dc:source>
+    <dc:description>A man makes oil in his house. Rats want this oil. They come up with a plan to steal the oil. Will they succeed?</dc:description>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">signLanguage</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All interior images has sufficient alt text and shows how longer descriptions can be added.</meta>
+    <meta content="0.9.13" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item id="font00" href="Fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="stylesheet.css" href="Styles/stylesheet.css" media-type="text/css"/>
+    <item id="NotoSans-Regular" href="Fonts/NotoSans.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Noto-Sans-Ethiopic" href="Fonts/NotoSansEthiopic-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="NotoKufiArabic" href="Fonts/NotoKufiArabic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="item_image_1" href="Images/asblogo.png" media-type="image/png"/>
+    <item id="front_cover.xhtml" href="Text/front_cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_1" href="Text/1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_3" href="Text/3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_4" href="Text/4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_5" href="Text/5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_6" href="Text/6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_7" href="Text/7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_8" href="Text/8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_9" href="Text/9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="back_cover.xhtml" href="Text/back_cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="nav" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="x2.xhtml" href="Text/2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="logowhite.png" href="Images/logowhite.png" media-type="image/png"/>
+    <item id="cover.png" href="Images/cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="page1.png" href="Images/page1.png" media-type="image/png"/>
+    <item id="page2.png" href="Images/page2.png" media-type="image/png"/>
+    <item id="page3.png" href="Images/page3.png" media-type="image/png"/>
+    <item id="page4.png" href="Images/page4.png" media-type="image/png"/>
+    <item id="page5.png" href="Images/page5.png" media-type="image/png"/>
+    <item id="page6.png" href="Images/page6.png" media-type="image/png"/>
+    <item id="page7.png" href="Images/page7.png" media-type="image/png"/>
+    <item id="page8.png" href="Images/page8.png" media-type="image/png"/>
+    <item id="page9.png" href="Images/page9.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="front_cover.xhtml"/>
+    <itemref idref="nav"/>
+    <itemref idref="chapter_1"/>
+    <itemref idref="x2.xhtml"/>
+    <itemref idref="chapter_3"/>
+    <itemref idref="chapter_4"/>
+    <itemref idref="chapter_5"/>
+    <itemref idref="chapter_6"/>
+    <itemref idref="chapter_7"/>
+    <itemref idref="chapter_8"/>
+    <itemref idref="chapter_9"/>
+    <itemref idref="back_cover.xhtml"/>
+  </spine>
+</package>

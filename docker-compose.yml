@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  web:
+    build: .
+    ports:
+    - "8010:80"
+    image: mattrayner/lamp:latest
+    volumes:
+        - ./app:/app
+        - ./mysql:/var/lib/mysql

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <!-- Title of the book -->
+    <dc:title>Look at the Animals</dc:title>
+    <!-- Creator/Author -->
+    <dc:creator id="creator01">Jenny Katz</dc:creator>
+        <meta property="role" refines="#creator01">aut</meta>
+        <meta property="file-as" refines="#creator01">Jenny Katz</meta>
+        <meta property="dcterms:modified">2019-01-17T12:39:00Z</meta>
+		<dc:contributor>Sandy Campbell</dc:contributor>
+    <!-- Date -->
+    <dc:date>2003</dc:date>
+    <!-- Publisher of the book-->
+    <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
+    <!-- Language of the book-->
+    <dc:language>en</dc:language>
+    <!-- Identifier -->
+    <dc:identifier id="uuid_id">03c60f16-be1c-4888-83b8-fba59d151e29</dc:identifier>
+        <meta property="identifier-type" refines="#uuid_id">uuid</meta>
+    <!-- Rights -->
+    <dc:rights>You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <!-- Source -->
+	<dc:source>Title: Look at the Animals, Publisher: Africa Storybook, Author: Jenny Katz, Contributor: Sandy Campbell, Year: 2003, Africa</dc:source>
+  <dc:description>Explore the sounds made by different farmyard animals. What noise does the farmer make?</dc:description>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <!-- Meta for the cover -->
+    <meta name="cover" content="cover-image"/>
+
+    <!-- ACCESSIBLITY METADATA PROPERTIES -->
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All interior images has sufficient alt text and shows how longer descriptions can be added.</meta>
+  </metadata>
+
+ <manifest>
+	<item id="font00" href="fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+   <item href="epub.css" id="default_css" media-type="text/css"/>
+   <item href="fonts/NotoSans.otf" id="NotoSans-Regular" media-type="application/vnd.ms-opentype"/>
+   <item href="fonts/NotoSansEthiopic-Regular.otf" id="Noto-Sans-Ethiopic" media-type="application/vnd.ms-opentype"/>
+   <item href="fonts/NotoKufiArabic.otf" id="NotoKufiArabic" media-type="application/vnd.ms-opentype"/>
+   <item href="images/logowhite.png" id="item_image_0"  media-type="image/png"/>
+   <item href="images/asblogo.png" id="item_image_1"  media-type="image/png"/>
+   <item href="images/1749.png" id="item_image_2"  media-type="image/png"/>
+   <item href="images/1750.png" id="item_image_3"  media-type="image/png"/>
+   <item href="images/1751.png" id="item_image_4"  media-type="image/png"/>
+   <item href="images/1752.png" id="item_image_5"  media-type="image/png"/>
+   <item href="images/1753.png" id="item_image_6"  media-type="image/png"/>
+   <item href="images/1754.png" id="item_image_7"  media-type="image/png"/>
+   <item href="images/1755.png" id="item_image_8"  media-type="image/png"/>
+   <item href="images/1757.png" id="item_image_9"  media-type="image/png"/>
+   <item href="images/read.png" id="item_image_10"  media-type="image/png"/>
+    <item href="0.xhtml" id="chapter_0" media-type="application/xhtml+xml"/>
+    <item href="1.xhtml" id="chapter_1" media-type="application/xhtml+xml"/>
+    <item href="2.xhtml" id="chapter_2" media-type="application/xhtml+xml"/>
+    <item href="3.xhtml" id="chapter_3" media-type="application/xhtml+xml"/>
+    <item href="4.xhtml" id="chapter_4" media-type="application/xhtml+xml"/>
+    <item href="5.xhtml" id="chapter_5" media-type="application/xhtml+xml"/>
+    <item href="6.xhtml" id="chapter_6" media-type="application/xhtml+xml"/>
+    <item href="7.xhtml" id="chapter_7" media-type="application/xhtml+xml"/>
+    <item href="8.xhtml" id="chapter_8" media-type="application/xhtml+xml"/>
+    <item href="9.xhtml" id="chapter_9" media-type="application/xhtml+xml"/>
+ <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+ <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+ <item id="cover-image" href="images/cover.png"  media-type="image/png" properties="cover-image"/>
+ </manifest>
+ <spine toc="ncx">
+    <itemref idref="chapter_0"/>
+    <itemref idref="nav"/>
+    <itemref idref="chapter_1"/>
+    <itemref idref="chapter_2"/>
+    <itemref idref="chapter_3"/>
+    <itemref idref="chapter_4"/>
+    <itemref idref="chapter_5"/>
+    <itemref idref="chapter_6"/>
+    <itemref idref="chapter_7"/>
+    <itemref idref="chapter_8"/>
+    <itemref idref="chapter_9"/>
+ </spine>
+</package>
