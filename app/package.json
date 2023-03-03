@@ -71,7 +71,7 @@
     "jquery-hammerjs": "^2.0.0",
     "keymaster": "github:danielweck/keymaster#master",
     "mathjax-single-file": "github:danielweck/MathJax-single-file#master",
-    "mocha": "^5.2.0",
+    "mocha": "^10.2.0",
     "phantomjs-prebuilt": "^2.1.16",
     "remotestoragejs": "^1.2.3",
     "requirejs-hogan-plugin": "^0.3.1",
