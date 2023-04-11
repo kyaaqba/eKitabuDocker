@@ -79,7 +79,7 @@
     "spin.js": "2.x",
     "uglify-js": "^3.9.2",
     "wd": "^1.12.1",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.5.0"
   },
   "scripts": {
     "cson2json": "node ./readium-js/readium-shared-js/readium-build-tools/concat.js \"package/*.cson\" package.cson && node ./readium-js/readium-shared-js/node_modules/cson/bin/cson2json package.cson > package.json && node ./readium-js/readium-shared-js/node_modules/rimraf/bin.js package.cson && node readium-js/readium-shared-js/readium-build-tools/optimizePackageJsonScripts.js",
