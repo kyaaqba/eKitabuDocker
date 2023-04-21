@@ -58,7 +58,7 @@
     "chai": "3.x",
     "chai-as-promised": "^7.1.1",
     "clean-css-cli": "^4.3.0",
-    "crx": "^3.2.1",
+    "crx": "^5.0.1",
     "decompress-zip": "^0.3.2",
     "gift": "^0.10.1",
     "github": "12.x",
